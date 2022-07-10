@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Prata&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter";
+    color: white;
+}
+
+.title {
+    font-family: "Prata";
+    font-weight: Lighter;
+}
+
+body {
+    background-color: black;
+    padding: 2% 5%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;    
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+}
+
+header h1 {
+    font-size: 1.2rem;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav li {
+    padding: 0 10px;
+}
+
+.main-nav a {
+    display: inline-block;
+    text-decoration: none; 
+    color: #777;
+}
+
+.get-in-touch-btn {
+    background-color: #FBE850;
+    color: black;
+    font-weight: bolder;
+    border-style: none;
+    height: 35px;
+    width: 120px;
+}
+
+.intro {
+    width: 700px;
+    margin: 70px 0;
+}
+
+.intro-title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 14px;
+    color: #777;
+}
+
+.logo-list ul{
+    display: flex;
+    justify-content: space-between;
+}
