@@ -18,7 +18,7 @@ html, body {
 
 body {
     background-color: black;
-    padding: 2% 5%;
+
 }
 
 ul {
@@ -36,9 +36,10 @@ header {
     align-items: center;
     margin: auto;
     font-size: 14px;
+    padding: 2% 5%;
 }
 
-header h1 {
+header h1, footer h1 {
     font-size: 1.2rem;
 }
 
@@ -66,8 +67,9 @@ header h1 {
 }
 
 .intro {
-    width: 700px;
-    margin: 70px 0;
+    width: 600px;
+    padding: 60px 0;
+    margin: 0% 5% 3% 5%;
 }
 
 .intro-title {
@@ -75,7 +77,7 @@ header h1 {
     margin: 0;
 }
 
-.intro p {
+.small-gray-text {
     font-size: 14px;
     color: #777;
 }
@@ -83,4 +85,40 @@ header h1 {
 .logo-list ul{
     display: flex;
     justify-content: space-between;
+}
+
+.logo-list {
+    margin: 0% 5% 3% 5%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5% 3% 5%;
+}
+
+.left-side{
+    width: 530px;
+}
+
+.right-side{
+    width: 530px;
+}
+
+.gray-background {
+    background-color: rgb(45,45,45);
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+
+.contact {
+    margin: 3% 5%;
+}
+
+footer {
+    padding: 1% 5%;
 }
